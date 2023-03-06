@@ -1,0 +1,19 @@
+1. /document/개발.pptx 확인
+2. ZTB_EDU_BOARD 테이블 정보(동시 학습 제공시 ZTB_EDU_BOARD_{이니셜} 형태로 제공)
+	NUM		순번(max + 1 기준)
+	TITLE	제목
+	CONT	내용
+	CATE_CD	카테고리 코드([3] 데이터 기준)
+	NOTE_YN	공지여부
+	REG_DT	등록일
+	MOD_DT	수정일
+3. 카테고리 코드 정보
+	1 : 업무
+	2 : 일정
+	3 : 일반
+4. DB 정보
+	IP		: 192.168.0.145 (119.192.172.120)
+	PORT	: 1521
+	SID		: ORCL
+	ID		: EDU
+	PW		: EDUPASS1234
